@@ -17,5 +17,5 @@ public abstract class AbstractQueue {
 
     public boolean isEmpty() {
         return size == 0;
-    }S
+    }
 }

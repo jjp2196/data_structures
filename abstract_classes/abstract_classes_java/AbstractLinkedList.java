@@ -1,3 +1,5 @@
+package abstract_classes.abstract_classes_java;
+
 public abstract class AbstractLinkedList {
     
     // Creates the first node (head) and size attribute of the class
