@@ -1,7 +1,7 @@
 # Data Structures
 
 Data Structures is a series of packages written in Java and C++ for organizing 
-data structures as abstract classes and .
+data structures as abstract classes and their implemented subclasses.
 
 ## Installation
 
