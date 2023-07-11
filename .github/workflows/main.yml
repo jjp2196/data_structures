@@ -26,6 +26,6 @@ jobs:
     - name: Commit Changes
       run: |
         git config --global user.email "jjp2196@columbia.edu"
-        git config --global user.name "James"
+        git config --global user.name "jjp2196"
         git commit -am "Daily Commit"
         git push
