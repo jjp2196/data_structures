@@ -1,17 +1,21 @@
 // src/BST.js
 import React, { Component } from 'react';
+import './BST.css'; // Import the CSS file
 
 class BST extends Component {
-  constructor(props) {
-    super(props);
-    // Initialize BST state or logic here
-  }
+  // Add any BST logic or methods here
 
   render() {
-    // Render BST nodes, manage state, and handle user interactions
+    const { data } = this.props; // Access the BST data from props
+
     return (
-      <div>
-        {/* Render your BST visualization here */}
+      <div className="bst-container">
+        {/* Render BST nodes based on the data */}
+        {data.map((value, index) => (
+          <div key={index} className="bst-node">
+            {value}
+          </div>
+        ))}
       </div>
     );
   }
