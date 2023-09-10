@@ -1,7 +1,7 @@
-from datetime import datetime
+#from datetime import datetime
 
-filename = 'update.txt'
+#filename = 'update.txt'
 
-with open(filename, 'a') as f:
-    now = datetime.now()
-    f.write(f'Today is {now.strftime("%Y-%m-%d")}\n')
+#with open(filename, 'a') as f:
+#    now = datetime.now()
+#    f.write(f'Today is {now.strftime("%Y-%m-%d")}\n')
