@@ -5,17 +5,6 @@ data structures as abstract classes and their implemented subclasses.
 
 ![Data Structures](images/data_structs_image_1.jpeg))
 
-## Installation
-
-Import the packages in (abstract_classes). From there, you can modify and 
-implement any data structure as needed quickly for backend development projects. 
-
-## Usage for Abstract Classes
-
-Import the desired abstract class and concrete subclass of the data structure 
-needed. Then, modify the structure to implement the program as desired in 
-your own program.
-
 ## Usage for Leetcode
 
 Find the exercise you're interested in, and follow the compiling directions as 
@@ -45,6 +34,17 @@ you can run your program by executing the generated executable.
     On Windows: Copy code two_sum.exe
     On Linux: bashCopy code./two_sum
     On Mac: ./two_sum
+
+## Installation of Templates / Abstract Classes
+
+Import the packages in (abstract_classes). From there, you can modify and 
+implement any data structure as needed quickly for backend development projects. 
+
+## Usage for Abstract Classes
+
+Import the desired abstract class and concrete subclass of the data structure 
+needed. Then, modify the structure to implement the program as desired in 
+your own program.
 
 ## Contributing
 
