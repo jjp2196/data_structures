@@ -3,26 +3,6 @@
 # include <vector>
 using namespace std;
 
-class Solution {
-public:
-    int removeDuplicates(vector<int>& nums) {
-        
-        // Because the first value (base case) will always be unique, 
-        // start with k = 1 and initialize loop with i = 1;
-        int k = 1;
-
-        // every time that i is not the i before it, 
-        // set val[k] to val[i], add to k to increment for next loop
-        for (int i = 1; i < nums.size(); i++) {
-            if (nums[i] != nums[i - 1]) {
-                nums[k] = nums[i]; 
-                k++;
-            }
-        }
-        return k; 
-    }
-};
-
 /*
 
 Problem Statement: 
@@ -43,6 +23,26 @@ important as well as the size of nums.
 2.) Return k.
 
 */
+
+class Solution {
+public:
+    int removeDuplicates(vector<int>& nums) {
+        
+        // Because the first value (base case) will always be unique, 
+        // start with k = 1 and initialize loop with i = 1;
+        int k = 1;
+
+        // every time that i is not the i before it, 
+        // set val[k] to val[i], add to k to increment for next loop
+        for (int i = 1; i < nums.size(); i++) {
+            if (nums[i] != nums[i - 1]) {
+                nums[k] = nums[i]; 
+                k++;
+            }
+        }
+        return k; 
+    }
+};
 
 int main() 
 {
