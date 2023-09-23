@@ -20,7 +20,7 @@ Output: [1,1,2,3,4,4]
 
 struct ListNode {
     int val;
-    ListNode *next;
+    ListNode *next; //pointer
     ListNode() : val(0), next(nullptr) {}
     ListNode(int x) : val(x), next(nullptr) {}
     ListNode(int x, ListNode *next) : val(x), next(next) {}
