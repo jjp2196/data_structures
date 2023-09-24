@@ -36,7 +36,7 @@ public:
             the reference to the next node. 
             So, we save it in next_node temporarily.
             */
-            ListNode* temp = current_node->next;
+            ListNode* temp = current_node->next; // This is the pointer to next
 
             /* Initially, current_node->next points to 
             the next node in the original list, 
